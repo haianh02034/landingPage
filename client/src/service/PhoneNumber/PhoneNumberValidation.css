@@ -1,0 +1,52 @@
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  /* Style error message */
+  .text-range {
+    color: rgb(248, 47, 47);
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .country-list .country {
+    background-color: rgba(70, 101, 204, 0.5); /* Màu xanh đậm */
+    color: #000000; /* Màu chữ trắng */
+  }
+  .country-list .country.selected {
+    background-color: rgba(221, 20, 20, 0); /* Màu xanh đậm */
+    font-weight: bold; /* Text đậm */
+  }
+  /* Style background color of each country item when hovering */
+
+
+  .phone-input-container {
+    width: 100%; /* Đảm bảo ô nhập sẽ lấp đầy phần tử cha */
+  }
+  
+
+  /* Style input inside the phone input */
+  .phone-input input {
+    border: none; /* Loại bỏ viền của ô nhập */
+    outline: none; /* Loại bỏ đường viền khi focus */
+    width: 100%; /* Lấp đầy phần tử cha */
+    font-size: 14px; /* Kích thước chữ */
+  }
+  
+  /* Style selected phone number */
+  .country-list .country.selected {
+    font-weight: bold; /* Text đậm */
+  }
+  
+  /* Style "+" symbol */
+  .country-list .country.selected .dial-code {
+    color: black; /* Màu chữ đen */
+  }
+
+  .form-control {
+    width: 100% !important;
+    font-size: 1rem !important;
+    height: 38px !important;
+  }
